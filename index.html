@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>COFFEHUB</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+            integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/responsible.css" />
+    </head>
+
+    <body>
+        <header class="header" id="header">
+            <nav class="navigation nav">
+                <div class="navigation__logo">
+                    <span>COFFEHUB</span>
+                </div>
+                <input id="navigation__toggle" type="checkbox" />
+                <label class="navigation__button" for="navigation__toggle">
+                    <span>MENU</span>
+                </label>
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#header" class="nav__link">Home</a>
+                    </li>
+                    <li class="navigation__item navigation__item--expand">
+                        <a href="#gallery" class="nav__link">Gallery</a>
+                        <ul class="dropdown-nav">
+                            <li class="dropdown-nav__item">
+                                <a href="#gallery" class="dropdown-nav__link"
+                                    >Coffee 1</a
+                                >
+                            </li>
+                            <li class="dropdown-nav__item">
+                                <a href="#gallery" class="dropdown-nav__link"
+                                    >Coffee 2</a
+                                >
+                            </li>
+                            <li class="dropdown-nav__item">
+                                <a href="#gallery" class="dropdown-nav__link"
+                                    >Coffee 3</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#prices" class="nav__link">Prices</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="section intro intro-section">
+            <img src="./img/template1.jpg" alt="intro" />
+
+            <div class="intro__inner">
+                <h2 class="intro__subtitle">Fresh pressed coffee</h2>
+                <h1 class="intro__title">CoffeeHub</h1>
+                <h2 class="intro__subtitle2">
+                    Cafe located in the heart of Lviv
+                </h2>
+            </div>
+        </section>
+        <div id="gallery" class="section">
+            <div class="section__header">
+                <h2 class="section__title">Gallery</h2>
+
+                <div class="section__text">
+                    <p>
+                        Our coffee masters have distilled their years of tasting
+                        knowledge down to three simple questions to help you
+                        find a CoffeeHub coffee you’re sure to love..
+                    </p>
+                </div>
+                <br />
+                <div class="gallery">
+                    <img class="gallery-img" src="./img/beans2.jpg" alt="" />
+                    <img class="gallery-img" src="./img/coffeepot.jpg" alt="" />
+                    <img class="gallery-img" src="./img/window.jpg" alt="" />
+                    <img class="gallery-img" src="./img/beans.jpg" alt="" />
+                    <img class="gallery-img" src="./img/beans.jpg" alt="" />
+                    <img
+                        class="gallery-img"
+                        src="./img/windowview.jpg"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+
+        <section class="section video-sec">
+            <iframe
+                type="text/html"
+                class="header__background"
+                src="https://www.youtube.com/embed/ui9Sqi-WriY?rel=0&amp;fs=0&amp;showinfo=0&autoplay=1&mute=1&controls=0&loop=1&start=310&showinfo=0&iv_load_policy=3"
+                frameborder="0"
+            >
+            </iframe>
+            <div class="section description-section">
+                <div class="container">
+                    <div class="description-section__wrapper">
+                        <div class="description-section__content">
+                            <h2 class="description-section__subheader">
+                                Coffee is always a good idea.
+                            </h2>
+                            <h1 class="description-section__header">
+                                Made for you.
+                            </h1>
+                            <a
+                                class="button description-section__button"
+                                href="#gallery"
+                                >Show photo</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   
+
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="prices-section__wrapper">
+                        <h3 class="section-header" style="color: black">
+                            Our menu and prices</h3>
+                        <center>
+                            <table class="styled-table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Capacity</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active-row">
+                                        <td>Americano</td>
+                                        <td>200 ml</td>
+                                        <td>0 UAH</td>
+                                    </tr>
+                                    <tr class="active-row">
+                                        <td>Cappucino</td>
+                                        <td>250 ml</td>
+                                        <td>0 UAH</td>
+                                    </tr>
+                                    <tr class="active-row">
+                                        <td>Macciato</td>
+                                        <td>200 ml</td>
+                                        <td>0 UAH</td>
+                                    </tr>
+                                    <tr class="active-row">
+                                        <td>Espresso</td>
+                                        <td>100 ml</td>
+                                        <td>0 UAH</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </center>
+                </div>
+            <form class="contact-form">
+                                
+                <input class="contact-input" name="name" type='text' placeholder="Enter name" />
+                <input class="contact-input contact-last" type="email" name="email" placeholder="Enter email" />
+                <input class="contact-input" type="text" name="service" placeholder="Enter your injury" />
+                <button type="submit" class="contact-button">SUBMIT</a>
+            </form>
+        </div>
+
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__grid">
+                        <div class="footer__section">
+                            <span class="footer__subheader"
+                                >Contact In</span
+                            >
+                            <ul class="footer__list footer__contacts">
+                                <li class="footer__link">
+                                    <a href="mailto:"
+                                        ><i
+                                            class="fas fa-envelope-open-text"
+                                        ></i>
+                                        coffeehub@gmail.com</a
+                                    >
+                                </li>
+                                <li class="footer__link">
+                                    <a href="tel:"
+                                        ><i class="fas fa-phone"></i> +380957372938 Kateryna</a
+                                    >
+                                </li>
+                                <li class="footer__link">
+                                    <a href=""
+                                        ><i class="fas fa-location-arrow"></i>
+                                        Staroevreyska 19 st. Lviv, Ukraine
+
+                                        
+                                        
+                                        </a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                       
+                      
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
